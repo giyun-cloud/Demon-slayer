@@ -1,0 +1,23 @@
+{
+  "name": "05_1_demon_slayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giyun-cloud/Demon-slayer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giyun-cloud/Demon-slayer/issues"
+  },
+  "homepage": "https://github.com/giyun-cloud/Demon-slayer#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

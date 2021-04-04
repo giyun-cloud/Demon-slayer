@@ -1,0 +1,89 @@
+body{
+  background-image: url("/bc.7bc61304.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  }
+.container{
+}
+.container .pillars{
+  display: flex;
+  justify-content: center;
+  padding: 2vh 0 0 0;
+  margin: 0 auto;
+}
+.container .pillars .pillar{
+ width: 6vw;
+ height: 60vh;
+ background-color: rgba(255,255,255, 0.7);
+ border: 0.2vw solid #fff;
+ margin: 0.9vh 0.9vw;
+ transform: skewX(-10deg);
+ overflow: hidden;
+ border-radius: 1vw;
+ transition: width 1s 0.1s,background-color 1s 0.5s;
+ flex-shrink: 0;
+}
+.container .pillars .pillar:hover{
+  width: 20vw;
+}
+.container .pillars .pillar:hover .image{
+  margin-left: 0;
+}
+.container .pillars .pillar:nth-child(1):hover{background-color: #FFEB2C;}
+.container .pillars .pillar:nth-child(2):hover{background-color: #4C0099;}
+.container .pillars .pillar:nth-child(3):hover{background-color: #FF99FF;}
+.container .pillars .pillar:nth-child(4):hover{background-color: #CAB160;}
+.container .pillars .pillar:nth-child(5):hover{background-color: #6FC0AD;}
+.container .pillars .pillar:nth-child(6):hover{background-color: #626262;}
+.container .pillars .pillar:nth-child(7):hover{background-color: #87ABFF;}
+.container .pillars .pillar:nth-child(8):hover{background-color: #AB8CF5;}
+.container .pillars .pillar:nth-child(9):hover{background-color: #989898;}
+.container .pillars .pillar .image{
+  height: 100%;
+  width: 20vw;
+  margin-left: -5vw;
+  transform: skew(10deg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s 0.1s;
+}
+.container .pillars .pillar:nth-child(1) .image{background-image: url("/1.a7f2b1ea.png");}
+.container .pillars .pillar:nth-child(2) .image{background-image: url("/2.34844cc1.png");}
+.container .pillars .pillar:nth-child(3) .image{background-image: url("/3.f46dd042.png");}
+.container .pillars .pillar:nth-child(4) .image{background-image: url("/4.f13eda07.png");}
+.container .pillars .pillar:nth-child(5) .image{background-image: url("/5.9f441991.png");}
+.container .pillars .pillar:nth-child(6) .image{background-image: url("/6.9c163db8.png");}
+.container .pillars .pillar:nth-child(7) .image{background-image: url("/7.bfa94c34.png");}
+.container .pillars .pillar:nth-child(8) .image{background-image: url("/8.c4e4ce7e.png");}
+.container .pillars .pillar:nth-child(9) .image{background-image: url("/9.8fefc657.png");}
+.container .logo{
+  max-width: 11vw;
+  margin: 4vh auto 0;
+  padding: 0 5px;
+}
+.container .logo img {
+  width: 100%;
+}
+.container .description {
+  width: 70vw;
+  height: 7vh;
+  background-color: #fff;
+  border-radius: 8vh;
+  border: 0.5vh solid #626262;
+  padding: 1.5vh;
+  margin: 0 auto;
+}
+.container .description h4 {
+  font-size: 2.2vh;
+  font-weight: 700;
+  padding: 0 0 0.5vh 0.5vh;
+}
+.container .description p {
+  font-size: 1.9vh;
+}
+
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
